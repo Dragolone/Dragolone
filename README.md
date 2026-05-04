@@ -1,5 +1,12 @@
 # 💫 About Me:
-Hi, I'm Qilong — CS undergrad at the University of Sydney (Advanced Computing), currently shipping a remote-controllable robotics product as the sole engineer (Vue 3 / uni-app / uniCloud on the client, Flask + MQTT + WebSocket on the gateway). I enjoy going 0→1 on cross-platform and IoT products, and care about quantifiable outcomes more than fancy architecture. Lately I'm exploring LLM application development — prompt engineering, function calling, RAG. Fun fact: once led my ELEC1601 team to Top 8 out of 200+ in a maze-solving robot competition by ditching the textbook DFS the night before the demo. Always happy to chat about full-stack, IoT, or going 0→1 with constrained resources.<br>
+Hi, I'm Qilong 👋
+
+CS undergrad at the University of Sydney (Advanced Computing), currently the sole engineer on a remote-controllable robotics product — owning everything from a cross-platform WeChat mini program (Vue 3 / uni-app / uniCloud) down to the IoT gateway (Flask + MQTT + WebSocket).
+
+I like going 0→1 on full-stack and IoT products, and care more about quantifiable outcomes and maintainable code than fancy architecture. Lately I'm diving into LLM application development (prompt engineering, function calling, RAG) and looking to connect with people building real agentic products, not demos.
+
+Always down to chat about full-stack, IoT, real-time systems, or going 0→1 with constrained resources.
+
 
 
 ## 🌐 Socials:
