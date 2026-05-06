@@ -2,6 +2,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=header&text=Qilong%20Zhong&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20%7C%20IoT%20%7C%20Robotics%20%7C%20LLM%20Apps&descAlignY=55&descSize=16" />
 </p>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=850&lines=CS+%40+University+of+Sydney;Building+0%E2%86%921+full-stack+and+IoT+products;Remote-controllable+robotics+platform;Exploring+LLM+Apps%2C+RAG%2C+and+Agents" />
+</p>
+
 # 👋 About Me
 
 Hi, I'm Qilong Zhong — a CS undergraduate at **The University of Sydney** who enjoys building practical products from **0 → 1**.
