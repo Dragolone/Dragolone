@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=header&text=Qilong%20Zhong&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20%7C%20IoT%20%7C%20Robotics%20%7C%20LLM%20Apps&descAlignY=55&descSize=16" />
+</p>
+
 # 👋 About Me
 
 Hi, I'm Qilong Zhong — a CS undergraduate at **The University of Sydney** who enjoys building practical products from **0 → 1**.
