@@ -42,6 +42,13 @@ Always down to chat about full-stack, IoT, real-time systems, or going 0→1 wit
 ![](https://github-contributor-stats.vercel.app/api?username=Dragolone&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://komarev.com/ghpvc/?username=Dragolone&icon=0&color=0)](https://visitcount.itsvg.in)
+---
 
+## 👀 Profile Views
+
+counting of visitors to this page in this section started from May 6, 2026
+
+![](https://count.getloli.com/get/@Dragolone.github.readme)
+
+---
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
