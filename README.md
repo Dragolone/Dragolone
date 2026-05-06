@@ -1,10 +1,16 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=180&section=header&text=Qilong%20Zhong&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20%7C%20IoT%20%7C%20Robotics%20%7C%20LLM%20Apps&descAlignY=55&descSize=16" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=90&section=header&text=Qilong%20Zhong&fontSize=38&fontColor=58A6FF&animation=fadeIn&fontAlignY=45" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=900&color=58A6FF&center=true&vCenter=true&width=850&lines=CS+%40+University+of+Sydney;Building+0%E2%86%921+full-stack+and+IoT+products;Remote-controllable+robotics+platform;Exploring+LLM+Apps%2C+RAG%2C+and+Agents" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Build+what+is+useful%2C+not+just+what+is+impressive.;Simple+systems.+Real+products.+Reliable+delivery.;Great+software+feels+invisible+when+it+works.;Make+it+work.+Make+it+clear.+Make+it+last.;Ideas+are+cheap.+Execution+is+the+product." />
 </p>
+
+<p align="center">
+  <b>CS @ University of Sydney · Full-stack · IoT · Robotics · Practical AI</b>
+</p>
+
+---
 
 # 👋 About Me
 
