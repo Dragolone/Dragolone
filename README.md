@@ -10,7 +10,6 @@
   <b>CS @ University of Sydney · Full-stack · IoT · Robotics · Practical AI</b>
 </p>
 
----
 
 # 👋 About Me
 
