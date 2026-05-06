@@ -2,21 +2,21 @@
 
 Hi, I'm Qilong Zhong 👋
 
-I'm a Computer Science undergraduate at **The University of Sydney**, interested in building practical software systems that connect users, data, cloud services, and real-world devices.
+I'm a Computer Science undergraduate at **The University of Sydney**, focused on building practical full-stack systems that connect **users, cloud services, data, and real-world devices**.
 
-I'm currently the sole engineer behind a **remote-controllable robotics platform**, where I own the product and engineering workflow across the stack:
+I'm currently the sole engineer behind a **remote-controllable robotics platform**, where I work across the full product stack:
 
-- Building a WeChat Mini Program with **Vue 3 / uni-app**
-- Designing cloud APIs, authentication, and database logic with **uniCloud**
+- Building a cross-platform WeChat Mini Program with **Vue 3 / uni-app**
+- Designing backend APIs, authentication, and database logic with **uniCloud**
 - Developing an IoT command bridge with **Flask, MQTT, and WebSocket**
 - Handling robot binding, telemetry ingestion, remote control, and real-time status updates
 
-I like working on **0 → 1 products** where engineering decisions directly affect user experience, system reliability, and product delivery.  
-My focus is on writing maintainable code, reducing unnecessary complexity, and turning ideas into usable products.
+I enjoy building **0 → 1 products** where engineering decisions directly affect user experience, reliability, and delivery speed.  
+My focus is on shipping usable systems, writing maintainable code, and reducing unnecessary complexity.
 
-Recently, I'm also exploring **LLM application development**, especially prompt engineering, function calling, RAG, and agentic workflows.
+Recently, I'm exploring **LLM application development**, especially prompt engineering, function calling, RAG, and agentic workflows.
 
-I'm always open to talking about **full-stack development, IoT systems, robotics, real-time applications, and practical AI products**.
+Always open to talking about **full-stack development, IoT systems, robotics, real-time apps, and practical AI products**.
 
 
 
