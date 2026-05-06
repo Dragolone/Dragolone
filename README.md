@@ -41,12 +41,12 @@ Always open to talking about **full-stack development, IoT systems, robotics, re
 # 📊 GitHub Analytics
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.shion.dev/api?username=Dragolone&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&show_icons=true" />
-  <img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Dragolone&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
+  <img height="170" src="https://github-readme-stats.shion.dev/api?username=Dragolone&theme=github_dark&hide_border=true&include_all_commits=true&count_private=false&show_icons=true" />
+  <img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Dragolone&theme=github_dark&hide_border=true&layout=compact&langs_count=8" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Dragolone&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=Dragolone&theme=github-dark-blue&hide_border=true" />
 </p>
 
 ## 🏆 GitHub Trophies
