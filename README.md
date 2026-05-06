@@ -1,15 +1,16 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=90&section=header&text=Qilong%20Zhong&fontSize=38&fontColor=58A6FF&animation=fadeIn&fontAlignY=45" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=85&section=header&text=Qilong%20Zhong&fontSize=36&fontColor=FFFFFF&animation=fadeIn&fontAlignY=45" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=900&lines=Build+what+is+useful%2C+not+just+what+is+impressive.;Simple+systems.+Real+products.+Reliable+delivery.;Great+software+feels+invisible+when+it+works.;Make+it+work.+Make+it+clear.+Make+it+last.;Ideas+are+cheap.+Execution+is+the+product." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3600&pause=1200&color=8B949E&center=true&vCenter=true&width=900&lines=Build+systems+that+people+can+actually+use.;Reliability+is+a+feature%2C+not+an+afterthought.;Good+engineering+turns+complexity+into+clarity.;Small+details+make+systems+feel+professional.;Less+noise.+More+signal." />
 </p>
 
 <p align="center">
-  <b>CS @ University of Sydney · Full-stack · IoT · Robotics · Practical AI</b>
+  <b>Building practical products across software, cloud, and real-world devices.</b>
 </p>
 
+---
 
 # 👋 About Me
 
