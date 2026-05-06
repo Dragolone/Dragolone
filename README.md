@@ -1,11 +1,22 @@
-# 💫 About Me:
-Hi, I'm Qilong 👋
+# 💫 About Me
 
-CS undergrad at the University of Sydney (Advanced Computing), currently the sole engineer on a remote-controllable robotics product — owning everything from a cross-platform WeChat mini program (Vue 3 / uni-app / uniCloud) down to the IoT gateway (Flask + MQTT + WebSocket).
+Hi, I'm Qilong Zhong 👋
 
-I like going 0→1 on full-stack and IoT products, and care more about quantifiable outcomes and maintainable code than fancy architecture. Lately I'm diving into LLM application development (prompt engineering, function calling, RAG) and looking to connect with people building real agentic products, not demos.
+I'm a Computer Science undergraduate at **The University of Sydney**, interested in building practical software systems that connect users, data, cloud services, and real-world devices.
 
-Always down to chat about full-stack, IoT, real-time systems, or going 0→1 with constrained resources.
+I'm currently the sole engineer behind a **remote-controllable robotics platform**, where I own the product and engineering workflow across the stack:
+
+- Building a WeChat Mini Program with **Vue 3 / uni-app**
+- Designing cloud APIs, authentication, and database logic with **uniCloud**
+- Developing an IoT command bridge with **Flask, MQTT, and WebSocket**
+- Handling robot binding, telemetry ingestion, remote control, and real-time status updates
+
+I like working on **0 → 1 products** where engineering decisions directly affect user experience, system reliability, and product delivery.  
+My focus is on writing maintainable code, reducing unnecessary complexity, and turning ideas into usable products.
+
+Recently, I'm also exploring **LLM application development**, especially prompt engineering, function calling, RAG, and agentic workflows.
+
+I'm always open to talking about **full-stack development, IoT systems, robotics, real-time applications, and practical AI products**.
 
 
 
