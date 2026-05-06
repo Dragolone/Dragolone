@@ -52,7 +52,6 @@ I'm always open to talking about **full-stack development, IoT systems, robotics
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Dragolone&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
----
 
 # 📈 Contribution Activity
 
@@ -60,7 +59,6 @@ I'm always open to talking about **full-stack development, IoT systems, robotics
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dragolone&theme=react-dark&hide_border=true&area=true" />
 </p>
 
----
 
 # 🐍 Contribution Snake
 
@@ -72,7 +70,6 @@ I'm always open to talking about **full-stack development, IoT systems, robotics
   </picture>
 </p>
 
----
 
 ## 👀 Profile Views
 
