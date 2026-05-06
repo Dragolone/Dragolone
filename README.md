@@ -57,6 +57,16 @@ Always open to discussing **full-stack products, IoT systems, robotics, real-tim
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=Dragolone&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
+# 📌 Profile Summary
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dragolone&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Dragolone&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Dragolone&theme=tokyonight" />
+</p>
 
 # 📈 Contribution Activity
 
