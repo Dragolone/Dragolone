@@ -42,7 +42,6 @@ Always down to chat about full-stack, IoT, real-time systems, or going 0→1 wit
 ![](https://github-contributor-stats.vercel.app/api?username=Dragolone&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
----
 
 ## 👀 Profile Views
 
