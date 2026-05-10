@@ -46,8 +46,8 @@ Always open to discussing **full-stack products, IoT systems, robotics, real-tim
 # 📊 GitHub Analytics
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.shion.dev/api?username=Dragolone&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&show_icons=true" />
-  <img height="170" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Dragolone&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Dragolone&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&show_icons=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dragolone&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
 </p>
 
 <p align="center">
