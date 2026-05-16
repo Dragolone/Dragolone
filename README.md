@@ -48,7 +48,7 @@ Always open to discussing **full-stack products, IoT systems, robotics, real-tim
 <!-- <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Dragolone&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&show_icons=true" />
   <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dragolone&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" />
-</p> -->
+</p> --> 
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Dragolone&theme=tokyonight&hide_border=true" />
