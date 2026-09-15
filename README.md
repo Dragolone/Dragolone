@@ -15,28 +15,15 @@
 
 ## About Me
 
-<table>
-  <tr>
-    <td align="right" width="140"><img src="https://img.shields.io/badge/-EDUCATION-5E5CE6?style=for-the-badge" /></td>
-    <td><b>Bachelor of Advanced Computing</b> @ The University of Sydney (2024 – 2028) · exchange semester @ <b>HKU</b> (2026, fully funded by the Vice Chancellor's Global Mobility Scholarship)</td>
-  </tr>
-  <tr>
-    <td align="right"><img src="https://img.shields.io/badge/-ROLE-0EA5E9?style=for-the-badge" /></td>
-    <td><b>Backend lead at an early-stage IoT startup</b> in Shenzhen — sole software owner, shipped <b>3 production systems from 0 → 1</b>: an IoT robot teleoperation platform, an AI smart-helmet cloud backend, and a trilingual company website</td>
-  </tr>
-  <tr>
-    <td align="right"><img src="https://img.shields.io/badge/-NOW-10B981?style=for-the-badge" /></td>
-    <td>Building the cloud backend for an <b>AI smart helmet</b> — NestJS · Prisma · PostgreSQL 16 · EMQX (MQTT) · React Native</td>
-  </tr>
-  <tr>
-    <td align="right"><img src="https://img.shields.io/badge/-METHOD-F59E0B?style=for-the-badge" /></td>
-    <td>Write the <b>API / event / device contracts</b> and decision records first, keep state <b>server-authoritative</b>, and gate every merge with <b>e2e tests + CI</b></td>
-  </tr>
-  <tr>
-    <td align="right"><img src="https://img.shields.io/badge/-EXPLORING-EC4899?style=for-the-badge" /></td>
-    <td><b>LLM applications</b> — RAG, function calling, agentic workflows</td>
-  </tr>
-</table>
+**Education** &nbsp;·&nbsp; Bachelor of Advanced Computing at **The University of Sydney** (2024 – 2028). Exchange semester at **HKU** in 2026, funded by the Vice Chancellor's Global Mobility Scholarship.
+
+**Role** &nbsp;·&nbsp; Backend lead at an early-stage IoT startup in Shenzhen. Sole software owner, with **three production systems shipped from 0 → 1**.
+
+**Now** &nbsp;·&nbsp; Building the cloud backend for an **AI smart helmet** with NestJS, Prisma, PostgreSQL 16 and EMQX.
+
+**Method** &nbsp;·&nbsp; Contracts and decision records first. State stays **server-authoritative**. Every merge is gated by **e2e tests and CI**.
+
+**Exploring** &nbsp;·&nbsp; LLM applications: RAG, function calling and agentic workflows.
 
 ## Featured Projects
 
