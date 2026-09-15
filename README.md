@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Dragolone&fontSize=46&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=Backend%20%C2%B7%20IoT%20%C2%B7%20Full-stack%20Engineer&descAlignY=55&descSize=18" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Dragolone&fontSize=46&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=Backend%20%C2%B7%20IoT%20%C2%B7%20Full-stack%20Engineer&descAlignY=55&descSize=18" alt="Dragolone header banner" width="100%" />
 </p>
 
 <p align="center">
@@ -7,19 +7,19 @@
 </p>
 
 <p align="center">
-  <a href="mailto:dravenzhong27@gmail.com"><img src="https://img.shields.io/badge/Email-dravenzhong27%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.01weichuang.com"><img src="https://img.shields.io/badge/Website-01weichuang.com-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Location-Sydney%20%2F%20Shenzhen-2ea44f?style=flat-square" />
-  <img src="https://img.shields.io/badge/Open%20to-Backend%20%2F%20Full--stack%20Internships-8B5CF6?style=flat-square" />
+  <a href="mailto:dravenzhong27@gmail.com"><img src="https://img.shields.io/badge/Email-dravenzhong27%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email dravenzhong27@gmail.com" /></a>
+  <a href="https://www.01weichuang.com"><img src="https://img.shields.io/badge/Website-01weichuang.com-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white" alt="Website 01weichuang.com" /></a>
+  <img src="https://img.shields.io/badge/Location-Sydney%20%2F%20Shenzhen-2ea44f?style=flat-square" alt="Location Sydney / Shenzhen" />
+  <img src="https://img.shields.io/badge/Open%20to-Backend%20%2F%20Full--stack%20Internships-8B5CF6?style=flat-square" alt="Open to Backend / Full-stack Internships" />
 </p>
 
 ## About Me
 
-- <img src="https://img.shields.io/badge/-EDUCATION-5E5CE6?style=flat-square" align="top" /> &nbsp; **Bachelor of Advanced Computing** at The University of Sydney (2024 – 2028) · exchange semester at **HKU**, 2026, on the Vice Chancellor's Global Mobility Scholarship
-- <img src="https://img.shields.io/badge/-%E3%85%A4%E2%A0%80ROLE%E2%A0%80%E3%85%A4-0EA5E9?style=flat-square" align="top" /> &nbsp; **Backend lead at an early-stage IoT startup** in Shenzhen · sole software owner · **three production systems shipped from 0 → 1**
-- <img src="https://img.shields.io/badge/-%E3%85%A4%E2%A0%80NOW%E2%A0%80%E3%85%A4-10B981?style=flat-square" align="top" /> &nbsp; Building the cloud backend for an **AI smart helmet** · NestJS · Prisma · PostgreSQL 16 · EMQX
-- <img src="https://img.shields.io/badge/-%E2%A0%80METHOD%E2%A0%80-F59E0B?style=flat-square" align="top" /> &nbsp; **Contracts and decision records first** · state stays **server-authoritative** · every merge gated by **e2e tests + CI**
-- <img src="https://img.shields.io/badge/-EXPLORING-EC4899?style=flat-square" align="top" /> &nbsp; **LLM applications** · RAG · function calling · agentic workflows
+- <img src="https://img.shields.io/badge/-EDUCATION-5E5CE6?style=flat-square" alt="EDUCATION" align="top" /> &nbsp; **Bachelor of Advanced Computing** at The University of Sydney (2024 – 2028) · exchange semester at **HKU**, 2026, on the Vice Chancellor's Global Mobility Scholarship
+- <img src="https://img.shields.io/badge/-%E3%85%A4%E2%A0%80ROLE%E2%A0%80%E3%85%A4-0EA5E9?style=flat-square" alt="ROLE" align="top" /> &nbsp; **Backend lead at an early-stage IoT startup** in Shenzhen · sole software owner · **three production systems shipped from 0 → 1**
+- <img src="https://img.shields.io/badge/-%E3%85%A4%E2%A0%80NOW%E2%A0%80%E3%85%A4-10B981?style=flat-square" alt="NOW" align="top" /> &nbsp; Building the cloud backend for an **AI smart helmet** · NestJS · Prisma · PostgreSQL 16 · EMQX
+- <img src="https://img.shields.io/badge/-%E2%A0%80METHOD%E2%A0%80-F59E0B?style=flat-square" alt="METHOD" align="top" /> &nbsp; **Contracts and decision records first** · state stays **server-authoritative** · every merge gated by **e2e tests + CI**
+- <img src="https://img.shields.io/badge/-EXPLORING-EC4899?style=flat-square" alt="EXPLORING" align="top" /> &nbsp; **LLM applications** · RAG · function calling · agentic workflows
 
 ## Featured Projects
 
@@ -28,9 +28,9 @@
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Dragolone/robot-charging-station-miniprogram">🤖 robot-charging-station-miniprogram</a></h3>
       <p>
-        <img src="https://img.shields.io/github/stars/Dragolone/robot-charging-station-miniprogram?style=flat-square&logo=github&color=f5c518" />
-        <img src="https://img.shields.io/github/languages/top/Dragolone/robot-charging-station-miniprogram?style=flat-square" />
-        <img src="https://img.shields.io/badge/status-live%20%C2%B7%2080%2B%20beta%20users-10B981?style=flat-square" />
+        <img src="https://img.shields.io/github/stars/Dragolone/robot-charging-station-miniprogram?style=flat-square&logo=github&color=f5c518" alt="GitHub stars" />
+        <img src="https://img.shields.io/github/languages/top/Dragolone/robot-charging-station-miniprogram?style=flat-square" alt="top language" />
+        <img src="https://img.shields.io/badge/status-live%20%C2%B7%2080%2B%20beta%20users-10B981?style=flat-square" alt="status live · 80+ beta users" />
       </p>
       <p>WeChat Mini Program for <b>real-time robot fleet management &amp; teleoperation</b>. WebSocket with exponential-backoff reconnect, heartbeat and HTTP-polling fallback; 5 Hz velocity commands with a <b>1 s dead-man stop</b>; HMAC-SHA256 short-lived tokens for WS auth; passed two rounds of WeChat platform review.</p>
       <p><code>uni-app</code> <code>Vue 3</code> <code>uniCloud</code> <code>MQTT</code> <code>WebSocket</code></p>
@@ -38,9 +38,9 @@
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Dragolone/ECS">📡 ECS — IoT Gateway</a></h3>
       <p>
-        <img src="https://img.shields.io/github/languages/top/Dragolone/ECS?style=flat-square" />
-        <img src="https://img.shields.io/github/last-commit/Dragolone/ECS?style=flat-square&color=8b5cf6" />
-        <img src="https://img.shields.io/badge/deploy-Render-46E3B7?style=flat-square&logo=render&logoColor=white" />
+        <img src="https://img.shields.io/github/languages/top/Dragolone/ECS?style=flat-square" alt="top language" />
+        <img src="https://img.shields.io/github/last-commit/Dragolone/ECS?style=flat-square&color=8b5cf6" alt="last commit" />
+        <img src="https://img.shields.io/badge/deploy-Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="deploy Render" />
       </p>
       <p>The gateway behind the platform on the left. Merged two services into <b>one process</b> that handles MQTT → DB persistence, HTTP command dispatch and WS broadcast — halved the ops footprint, telemetry latency dropped from 10 s polling to <b>~1 s</b>.</p>
       <p><code>Python</code> <code>Flask</code> <code>paho-mqtt</code> <code>flask-sock</code> <code>EMQX</code></p>
@@ -50,9 +50,9 @@
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Dragolone/01web">🌐 01web — Company Website</a></h3>
       <p>
-        <img src="https://img.shields.io/github/languages/top/Dragolone/01web?style=flat-square" />
-        <img src="https://img.shields.io/website?url=https%3A%2F%2Fwww.01weichuang.com&style=flat-square&label=01weichuang.com&up_color=10B981" />
-        <img src="https://img.shields.io/badge/i18n-%E7%AE%80%20%2F%20%E7%B9%81%20%2F%20EN-0A0A0A?style=flat-square" />
+        <img src="https://img.shields.io/github/languages/top/Dragolone/01web?style=flat-square" alt="top language" />
+        <img src="https://img.shields.io/website?url=https%3A%2F%2Fwww.01weichuang.com&style=flat-square&label=01weichuang.com&up_color=10B981" alt="website status" />
+        <img src="https://img.shields.io/badge/i18n-%E7%AE%80%20%2F%20%E7%B9%81%20%2F%20EN-0A0A0A?style=flat-square" alt="i18n 简 / 繁 / EN" />
       </p>
       <p>Trilingual site for ZeroOne Innovation, live at <a href="https://www.01weichuang.com">01weichuang.com</a>. Contact-form API with validation, <b>IP rate limiting</b> and graceful SMTP fallback; security headers; 308 redirects for legacy routes; Nginx + SSL on Tencent Cloud, ICP-registered.</p>
       <p><code>Next.js</code> <code>TypeScript</code> <code>Nginx</code> <code>Tencent Cloud</code></p>
@@ -60,8 +60,8 @@
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Dragolone/Background-Management">🖥️ Background-Management</a></h3>
       <p>
-        <img src="https://img.shields.io/github/languages/top/Dragolone/Background-Management?style=flat-square" />
-        <img src="https://img.shields.io/github/last-commit/Dragolone/Background-Management?style=flat-square&color=8b5cf6" />
+        <img src="https://img.shields.io/github/languages/top/Dragolone/Background-Management?style=flat-square" alt="top language" />
+        <img src="https://img.shields.io/github/last-commit/Dragolone/Background-Management?style=flat-square&color=8b5cf6" alt="last commit" />
       </p>
       <p>Internal <b>admin dashboard</b> for ZeroOne Innovation's robot platform — the ops-side companion to the mini program, sharing the same uniCloud backend and auth model.</p>
       <p><code>Vue 3</code> <code>uniCloud</code></p>
@@ -71,8 +71,8 @@
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Dragolone/Elec1601">🏎️ Elec1601 — Autonomous Maze Car</a></h3>
       <p>
-        <img src="https://img.shields.io/github/languages/top/Dragolone/Elec1601?style=flat-square" />
-        <img src="https://img.shields.io/badge/result-Top%208%20of%20200%2B%20teams-F59E0B?style=flat-square" />
+        <img src="https://img.shields.io/github/languages/top/Dragolone/Elec1601?style=flat-square" alt="top language" />
+        <img src="https://img.shields.io/badge/result-Top%208%20of%20200%2B%20teams-F59E0B?style=flat-square" alt="result Top 8 of 200+ teams" />
       </p>
       <p>Team code lead. State-machine architecture, DFS / improved wall-following path search, sensor signal filtering and state debouncing on an Arduino AVR. <b>Top 8 of 200+ teams, 1st in class.</b></p>
       <p><code>C++</code> <code>Arduino</code></p>
@@ -80,9 +80,9 @@
     <td width="50%" valign="top">
       <h3>🔒 AI Smart Helmet — Cloud Backend</h3>
       <p>
-        <img src="https://img.shields.io/badge/source-private-6B7280?style=flat-square" />
-        <img src="https://img.shields.io/badge/e2e-24%20suites%20%C2%B7%20209%20tests-10B981?style=flat-square&logo=jest&logoColor=white" />
-        <img src="https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+        <img src="https://img.shields.io/badge/source-private-6B7280?style=flat-square" alt="source private" />
+        <img src="https://img.shields.io/badge/e2e-24%20suites%20%C2%B7%20209%20tests-10B981?style=flat-square&logo=jest&logoColor=white" alt="e2e 24 suites · 209 tests" />
+        <img src="https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI GitHub Actions" />
       </p>
       <p>Modular NestJS monolith with a unified ingest layer (MQTT / webhook / BLE relay), idempotent event dedup, a persisted <b>SOS state machine</b> that survives restarts, and a command-ack state machine (<code>pending → delivered → success / failed / offline</code>). Pre-launch hardening: 66 hardening + 8 stress cases surfaced 11 defects, all fixed same day.</p>
       <p><code>NestJS</code> <code>Prisma</code> <code>PostgreSQL 16</code> <code>EMQX</code> <code>Docker Compose</code> <code>Caddy</code></p>
@@ -156,16 +156,16 @@
 </table>
 
 <p align="center">
-  <a href="https://mqtt.org/"><img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white" /></a>
-  <a href="https://www.emqx.io/"><img src="https://img.shields.io/badge/EMQX-00B173?style=flat-square" /></a>
-  <a href="https://developer.mozilla.org/docs/Web/API/WebSockets_API"><img src="https://img.shields.io/badge/WebSocket-1F2937?style=flat-square" /></a>
-  <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" /></a>
-  <a href="https://uniapp.dcloud.net.cn/"><img src="https://img.shields.io/badge/uni--app-2B9939?style=flat-square" /></a>
-  <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/"><img src="https://img.shields.io/badge/WeChat%20Mini%20Program-07C160?style=flat-square&logo=wechat&logoColor=white" /></a>
-  <a href="https://caddyserver.com/"><img src="https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white" /></a>
-  <a href="https://cloud.tencent.com/"><img src="https://img.shields.io/badge/Tencent%20Cloud-0052D9?style=flat-square" /></a>
-  <a href="https://render.com/"><img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" /></a>
-  <a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" /></a>
+  <a href="https://mqtt.org/"><img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white" alt="MQTT" /></a>
+  <a href="https://www.emqx.io/"><img src="https://img.shields.io/badge/EMQX-00B173?style=flat-square" alt="EMQX" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/API/WebSockets_API"><img src="https://img.shields.io/badge/WebSocket-1F2937?style=flat-square" alt="WebSocket" /></a>
+  <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native" /></a>
+  <a href="https://uniapp.dcloud.net.cn/"><img src="https://img.shields.io/badge/uni--app-2B9939?style=flat-square" alt="uni-app" /></a>
+  <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/"><img src="https://img.shields.io/badge/WeChat%20Mini%20Program-07C160?style=flat-square&logo=wechat&logoColor=white" alt="WeChat Mini Program" /></a>
+  <a href="https://caddyserver.com/"><img src="https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white" alt="Caddy" /></a>
+  <a href="https://cloud.tencent.com/"><img src="https://img.shields.io/badge/Tencent%20Cloud-0052D9?style=flat-square" alt="Tencent Cloud" /></a>
+  <a href="https://render.com/"><img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="Render" /></a>
+  <a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" /></a>
 </p>
 
 ## GitHub Stats
@@ -196,5 +196,5 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" alt="footer banner" width="100%" />
 </p>
