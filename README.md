@@ -15,11 +15,11 @@
 
 ## About Me
 
-- <img src="https://img.shields.io/badge/-EDUCATION-5E5CE6?style=flat-square" align="top" /> &nbsp; **Bachelor of Advanced Computing** at The University of Sydney (2024 – 2028) · exchange semester at **HKU**, 2026, on the Vice Chancellor's Global Mobility Scholarship
-- <img src="https://img.shields.io/badge/-ROLE-0EA5E9?style=flat-square" align="top" /> &nbsp; **Backend lead at an early-stage IoT startup** in Shenzhen · sole software owner · **three production systems shipped from 0 → 1**
-- <img src="https://img.shields.io/badge/-NOW-10B981?style=flat-square" align="top" /> &nbsp; Building the cloud backend for an **AI smart helmet** · NestJS · Prisma · PostgreSQL 16 · EMQX
-- <img src="https://img.shields.io/badge/-METHOD-F59E0B?style=flat-square" align="top" /> &nbsp; **Contracts and decision records first** · state stays **server-authoritative** · every merge gated by **e2e tests + CI**
-- <img src="https://img.shields.io/badge/-EXPLORING-EC4899?style=flat-square" align="top" /> &nbsp; **LLM applications** · RAG · function calling · agentic workflows
+- <img src="https://img.shields.io/badge/-EDUCATION-5E5CE6?style=flat-square" width="96" height="20" align="top" /> &nbsp; **Bachelor of Advanced Computing** at The University of Sydney (2024 – 2028) · exchange semester at **HKU**, 2026, on the Vice Chancellor's Global Mobility Scholarship
+- <img src="https://img.shields.io/badge/-ROLE-0EA5E9?style=flat-square" width="96" height="20" align="top" /> &nbsp; **Backend lead at an early-stage IoT startup** in Shenzhen · sole software owner · **three production systems shipped from 0 → 1**
+- <img src="https://img.shields.io/badge/-NOW-10B981?style=flat-square" width="96" height="20" align="top" /> &nbsp; Building the cloud backend for an **AI smart helmet** · NestJS · Prisma · PostgreSQL 16 · EMQX
+- <img src="https://img.shields.io/badge/-METHOD-F59E0B?style=flat-square" width="96" height="20" align="top" /> &nbsp; **Contracts and decision records first** · state stays **server-authoritative** · every merge gated by **e2e tests + CI**
+- <img src="https://img.shields.io/badge/-EXPLORING-EC4899?style=flat-square" width="96" height="20" align="top" /> &nbsp; **LLM applications** · RAG · function calling · agentic workflows
 
 ## Featured Projects
 
@@ -175,12 +175,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Dragolone&theme=tokyonight" width="49%" alt="repos per language" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Dragolone&theme=tokyonight" width="49%" alt="most commit language" />
-</p>
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/409ba5/Dragolone" width="100%" alt="contribution calendar" />
+  <img src="https://denvercoder1-github-readme-stats.vercel.app/api?username=Dragolone&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="180" alt="github stats" />
+  <img src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Dragolone&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,tex" height="180" alt="top languages" />
 </p>
 
 <p align="center">
