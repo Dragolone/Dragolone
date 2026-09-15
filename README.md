@@ -15,15 +15,11 @@
 
 ## About Me
 
-**Education** &nbsp;·&nbsp; Bachelor of Advanced Computing at **The University of Sydney** (2024 – 2028). Exchange semester at **HKU** in 2026, funded by the Vice Chancellor's Global Mobility Scholarship.
-
-**Role** &nbsp;·&nbsp; Backend lead at an early-stage IoT startup in Shenzhen. Sole software owner, with **three production systems shipped from 0 → 1**.
-
-**Now** &nbsp;·&nbsp; Building the cloud backend for an **AI smart helmet** with NestJS, Prisma, PostgreSQL 16 and EMQX.
-
-**Method** &nbsp;·&nbsp; Contracts and decision records first. State stays **server-authoritative**. Every merge is gated by **e2e tests and CI**.
-
-**Exploring** &nbsp;·&nbsp; LLM applications: RAG, function calling and agentic workflows.
+- <img src="https://img.shields.io/badge/-EDUCATION-5E5CE6?style=flat-square" align="top" /> &nbsp; **Bachelor of Advanced Computing** at The University of Sydney (2024 – 2028) · exchange semester at **HKU**, 2026, on the Vice Chancellor's Global Mobility Scholarship
+- <img src="https://img.shields.io/badge/-ROLE-0EA5E9?style=flat-square" align="top" /> &nbsp; **Backend lead at an early-stage IoT startup** in Shenzhen · sole software owner · **three production systems shipped from 0 → 1**
+- <img src="https://img.shields.io/badge/-NOW-10B981?style=flat-square" align="top" /> &nbsp; Building the cloud backend for an **AI smart helmet** · NestJS · Prisma · PostgreSQL 16 · EMQX
+- <img src="https://img.shields.io/badge/-METHOD-F59E0B?style=flat-square" align="top" /> &nbsp; **Contracts and decision records first** · state stays **server-authoritative** · every merge gated by **e2e tests + CI**
+- <img src="https://img.shields.io/badge/-EXPLORING-EC4899?style=flat-square" align="top" /> &nbsp; **LLM applications** · RAG · function calling · agentic workflows
 
 ## Featured Projects
 
