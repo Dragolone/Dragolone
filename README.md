@@ -7,10 +7,9 @@
 </p>
 
 <p align="center">
-  <a href="mailto:810170966qq@gmail.com"><img src="https://img.shields.io/badge/Email-810170966qq%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:dravenzhong27@gmail.com"><img src="https://img.shields.io/badge/Email-dravenzhong27%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://www.01weichuang.com"><img src="https://img.shields.io/badge/Website-01weichuang.com-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Location-Sydney%20%2F%20Shenzhen-2ea44f?style=flat-square" />
-  <img src="https://komarev.com/ghpvc/?username=Dragolone&style=flat-square&color=blue&label=Profile%20views" />
 </p>
 
 ## 👋 About Me
@@ -70,11 +69,6 @@
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Dragolone&theme=tokyonight" width="49%" alt="stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Dragolone&theme=tokyonight&utcOffset=8" width="49%" alt="productive time" />
-</p>
-
-<p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Dragolone&theme=tokyonight" width="49%" alt="repos per language" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Dragolone&theme=tokyonight" width="49%" alt="most commit language" />
 </p>
@@ -89,6 +83,14 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/output/github-contribution-grid-snake.svg">
     <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Dragolone/Dragolone/output/github-contribution-grid-snake.svg">
   </picture>
+</p>
+
+## 👀 Profile Views
+
+<p align="center">
+  <img src="https://count.getloli.com/get/@Dragolone.github.readme" alt="profile views" />
+  <br/>
+  <sub>Counting since May 6, 2026</sub>
 </p>
 
 <p align="center">
