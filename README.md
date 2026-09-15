@@ -1,80 +1,87 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=85&section=header&text=Qilong%20Zhong&fontSize=36&fontColor=FFFFFF&animation=fadeIn&fontAlignY=45" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Qilong%20Zhong&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=Backend%20%C2%B7%20IoT%20%C2%B7%20Full-stack&descAlignY=55&descSize=18" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&duration=3600&pause=1200&color=8B949E&center=true&vCenter=true&width=900&lines=Build+systems+that+people+can+actually+use.;Reliability+is+a+feature%2C+not+an+afterthought.;Good+engineering+turns+complexity+into+clarity.;Small+details+make+systems+feel+professional.;Less+noise.+More+signal." />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3200&pause=1000&color=8B949E&center=true&vCenter=true&width=760&lines=Backend+engineer+who+ships+production+systems.;Contracts+first%2C+then+code.+Tests+and+CI+keep+it+honest.;IoT+%C2%B7+MQTT+%C2%B7+WebSocket+%C2%B7+real-time+control.;Server-authoritative+state+machines+over+in-memory+timers." alt="typing intro" />
 </p>
 
 <p align="center">
-  <b>Building practical products across software, cloud, and real-world devices.</b>
+  <a href="mailto:810170966qq@gmail.com"><img src="https://img.shields.io/badge/Email-810170966qq%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://www.01weichuang.com"><img src="https://img.shields.io/badge/Website-01weichuang.com-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Location-Sydney%20%2F%20Shenzhen-2ea44f?style=flat-square" />
+  <img src="https://komarev.com/ghpvc/?username=Dragolone&style=flat-square&color=blue&label=Profile%20views" />
 </p>
 
----
+## 👋 About Me
 
-# 👋 About Me
+- 🎓 **Bachelor of Advanced Computing @ The University of Sydney** (2024 – 2028) · GPA 3.8 / 4.0 · exchange semester @ **HKU** (2026, fully funded by the Vice Chancellor's Global Mobility Scholarship)
+- 💼 **Backend lead at an early-stage IoT startup** in Shenzhen — sole software owner, shipped **3 production systems from 0 → 1** (an IoT robot teleoperation platform, an AI smart-helmet cloud backend, and a trilingual company website)
+- 🤖 Currently building the cloud backend for an **AI smart helmet**: NestJS · Prisma · PostgreSQL 16 · EMQX (MQTT) · React Native
+- 🧭 How I work: write the **API / event / device contracts** and decision records first, keep state **server-authoritative**, and gate every merge with **e2e tests + CI**
+- 🔭 Exploring **LLM applications** — RAG, function calling, agentic workflows
+- 📫 Open to **backend / full-stack internships** (Node.js / Python) — say hi via email
 
-Hi, I'm Qilong Zhong — a CS undergraduate at **The University of Sydney** who enjoys building practical products from **0 → 1**.
+## 🚀 Featured Projects
 
-I'm currently working on a **remote-controllable robotics platform**, taking ideas from product design to real-world implementation.
+| Project | Stack | What's inside |
+| :-- | :-- | :-- |
+| **[robot-charging-station-miniprogram](https://github.com/Dragolone/robot-charging-station-miniprogram)** <br/> <img src="https://img.shields.io/github/stars/Dragolone/robot-charging-station-miniprogram?style=flat-square&logo=github&label=stars" /> | uni-app (Vue 3) · uniCloud · MQTT · WebSocket | WeChat Mini Program for **real-time robot fleet management & teleoperation**. Live in beta with 80+ users. WebSocket with exponential-backoff reconnect + heartbeat + HTTP-polling fallback; 5 Hz velocity commands with a **1 s dead-man stop**; HMAC-SHA256 short-lived tokens for WS auth; passed two rounds of WeChat platform review. |
+| **[ECS](https://github.com/Dragolone/ECS)** | Python · Flask · paho-mqtt · flask-sock | The **IoT gateway** behind the platform above. Merged two services into one process that handles MQTT → DB persistence, HTTP command dispatch, and WS broadcast — halved the ops footprint, telemetry latency dropped from 10 s polling to ~1 s. |
+| **[01web](https://github.com/Dragolone/01web)** | Next.js · Nginx · Tencent Cloud | Trilingual (简 / 繁 / EN) **company website**, live at [01weichuang.com](https://www.01weichuang.com). Contact-form API with validation, IP rate limiting and graceful SMTP fallback; security headers; ICP-registered. |
+| **[Background-Management](https://github.com/Dragolone/Background-Management)** | Vue 3 | Internal **admin dashboard** for ZeroOne Innovation's robot platform — the ops-side companion to the mini program. |
+| **[Elec1601](https://github.com/Dragolone/Elec1601)** | C++ · Arduino AVR | **Autonomous maze-racing car** — state-machine architecture, DFS / wall-following path search, sensor filtering and debouncing. **Top 8 of 200+ teams**, 1st in class. |
 
-I care about building systems that are **reliable, maintainable, and useful**, not just demos that look good on the surface.
+> 🔒 **Closed-source, but happy to talk about it:** the AI smart-helmet backend — a modular NestJS monolith with a unified ingest layer (MQTT / webhook / BLE-relay), idempotent event dedup, a persisted **SOS state machine** that survives restarts, and a command-ack state machine (`pending → delivered → success / failed / offline`). Pre-launch hardening: 66 hardening + 8 stress cases surfaced 11 defects, all fixed same day; **24 e2e suites / 209 tests green** in CI, including an empty-DB migration check.
 
-Recently, I'm exploring **LLM applications**, especially RAG, function calling, and agentic workflows.
+## 🛠️ Tech Stack
 
-Always open to discussing **full-stack products, IoT systems, robotics, real-time applications, and practical AI**.
-
-
-## 🌐 Socials:
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/Dragolone)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:810170966qq@gmail.com)
-
-
-# 💻 Tech Stack:
-**Languages:** ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-**Frontend:** ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-**Backend:** ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-
-**Databases:** ![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-
-**Data & ML:** ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-**Tools:** ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
-
-# 📊 GitHub Analytics
+<table align="center">
+  <tr>
+    <td align="right"><b>Languages</b></td>
+    <td><img src="https://skillicons.dev/icons?i=ts,js,python,java,cpp,r,bash" /></td>
+  </tr>
+  <tr>
+    <td align="right"><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,fastapi,flask" /></td>
+  </tr>
+  <tr>
+    <td align="right"><b>Frontend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=react,vue,nextjs,reactnative,tailwind" /></td>
+  </tr>
+  <tr>
+    <td align="right"><b>Data</b></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,prisma,mongodb,mysql,sqlite,pytorch,sklearn" /></td>
+  </tr>
+  <tr>
+    <td align="right"><b>DevOps & Tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,nginx,githubactions,jest,git,linux,arduino,latex" /></td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Dragolone&theme=tokyonight&hide_border=true" />
+  <sub>Also: MQTT / EMQX · WebSocket · JWT + refresh auth · rate limiting & idempotency · Alembic / Prisma migrations · Docker Compose · Caddy · Tencent Cloud (CVM / COS / SMS / TRTC) · Render · Claude Code</sub>
 </p>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Dragolone&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-
-# 📌 Profile Summary
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dragolone&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dragolone&theme=tokyonight" width="100%" alt="profile details" />
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Dragolone&theme=tokyonight" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Dragolone&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Dragolone&theme=tokyonight" width="49%" alt="stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Dragolone&theme=tokyonight&utcOffset=8" width="49%" alt="productive time" />
 </p>
-
-# 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dragolone&theme=react-dark&hide_border=true&area=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Dragolone&theme=tokyonight" width="49%" alt="repos per language" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Dragolone&theme=tokyonight" width="49%" alt="most commit language" />
 </p>
 
-
-# 🐍 Contribution Snake
+<p align="center">
+  <img src="https://ghchart.rshah.org/409ba5/Dragolone" width="100%" alt="contribution calendar" />
+</p>
 
 <p align="center">
   <picture>
@@ -84,12 +91,6 @@ Always open to discussing **full-stack products, IoT systems, robotics, real-tim
   </picture>
 </p>
 
-
-## 👀 Profile Views
-
-counting of visitors to this page in this section started from May 6, 2026
-
-![](https://count.getloli.com/get/@Dragolone.github.readme)
-
----
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
+</p>
