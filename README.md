@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Qilong%20Zhong&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=Backend%20%C2%B7%20IoT%20%C2%B7%20Full-stack&descAlignY=55&descSize=18" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Dragolone&fontSize=46&fontColor=fff&animation=fadeIn&fontAlignY=32&desc=Backend%20%C2%B7%20IoT%20%C2%B7%20Full-stack%20Engineer&descAlignY=55&descSize=18" width="100%" />
 </p>
 
 <p align="center">
@@ -10,59 +10,182 @@
   <a href="mailto:dravenzhong27@gmail.com"><img src="https://img.shields.io/badge/Email-dravenzhong27%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://www.01weichuang.com"><img src="https://img.shields.io/badge/Website-01weichuang.com-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Location-Sydney%20%2F%20Shenzhen-2ea44f?style=flat-square" />
+  <img src="https://img.shields.io/badge/Open%20to-Backend%20%2F%20Full--stack%20Internships-8B5CF6?style=flat-square" />
 </p>
 
-## 👋 About Me
+## About Me
 
-- 🎓 **Bachelor of Advanced Computing @ The University of Sydney** (2024 – 2028) · GPA 3.8 / 4.0 · exchange semester @ **HKU** (2026, fully funded by the Vice Chancellor's Global Mobility Scholarship)
-- 💼 **Backend lead at an early-stage IoT startup** in Shenzhen — sole software owner, shipped **3 production systems from 0 → 1** (an IoT robot teleoperation platform, an AI smart-helmet cloud backend, and a trilingual company website)
-- 🤖 Currently building the cloud backend for an **AI smart helmet**: NestJS · Prisma · PostgreSQL 16 · EMQX (MQTT) · React Native
-- 🧭 How I work: write the **API / event / device contracts** and decision records first, keep state **server-authoritative**, and gate every merge with **e2e tests + CI**
-- 🔭 Exploring **LLM applications** — RAG, function calling, agentic workflows
-- 📫 Open to **backend / full-stack internships** (Node.js / Python) — say hi via email
+<table>
+  <tr>
+    <td align="right" width="140"><img src="https://img.shields.io/badge/-EDUCATION-5E5CE6?style=for-the-badge" /></td>
+    <td><b>Bachelor of Advanced Computing</b> @ The University of Sydney (2024 – 2028) · exchange semester @ <b>HKU</b> (2026, fully funded by the Vice Chancellor's Global Mobility Scholarship)</td>
+  </tr>
+  <tr>
+    <td align="right"><img src="https://img.shields.io/badge/-ROLE-0EA5E9?style=for-the-badge" /></td>
+    <td><b>Backend lead at an early-stage IoT startup</b> in Shenzhen — sole software owner, shipped <b>3 production systems from 0 → 1</b>: an IoT robot teleoperation platform, an AI smart-helmet cloud backend, and a trilingual company website</td>
+  </tr>
+  <tr>
+    <td align="right"><img src="https://img.shields.io/badge/-NOW-10B981?style=for-the-badge" /></td>
+    <td>Building the cloud backend for an <b>AI smart helmet</b> — NestJS · Prisma · PostgreSQL 16 · EMQX (MQTT) · React Native</td>
+  </tr>
+  <tr>
+    <td align="right"><img src="https://img.shields.io/badge/-METHOD-F59E0B?style=for-the-badge" /></td>
+    <td>Write the <b>API / event / device contracts</b> and decision records first, keep state <b>server-authoritative</b>, and gate every merge with <b>e2e tests + CI</b></td>
+  </tr>
+  <tr>
+    <td align="right"><img src="https://img.shields.io/badge/-EXPLORING-EC4899?style=for-the-badge" /></td>
+    <td><b>LLM applications</b> — RAG, function calling, agentic workflows</td>
+  </tr>
+</table>
 
-## 🚀 Featured Projects
+## Featured Projects
 
-| Project | Stack | What's inside |
-| :-- | :-- | :-- |
-| **[robot-charging-station-miniprogram](https://github.com/Dragolone/robot-charging-station-miniprogram)** <br/> <img src="https://img.shields.io/github/stars/Dragolone/robot-charging-station-miniprogram?style=flat-square&logo=github&label=stars" /> | uni-app (Vue 3) · uniCloud · MQTT · WebSocket | WeChat Mini Program for **real-time robot fleet management & teleoperation**. Live in beta with 80+ users. WebSocket with exponential-backoff reconnect + heartbeat + HTTP-polling fallback; 5 Hz velocity commands with a **1 s dead-man stop**; HMAC-SHA256 short-lived tokens for WS auth; passed two rounds of WeChat platform review. |
-| **[ECS](https://github.com/Dragolone/ECS)** | Python · Flask · paho-mqtt · flask-sock | The **IoT gateway** behind the platform above. Merged two services into one process that handles MQTT → DB persistence, HTTP command dispatch, and WS broadcast — halved the ops footprint, telemetry latency dropped from 10 s polling to ~1 s. |
-| **[01web](https://github.com/Dragolone/01web)** | Next.js · Nginx · Tencent Cloud | Trilingual (简 / 繁 / EN) **company website**, live at [01weichuang.com](https://www.01weichuang.com). Contact-form API with validation, IP rate limiting and graceful SMTP fallback; security headers; ICP-registered. |
-| **[Background-Management](https://github.com/Dragolone/Background-Management)** | Vue 3 | Internal **admin dashboard** for ZeroOne Innovation's robot platform — the ops-side companion to the mini program. |
-| **[Elec1601](https://github.com/Dragolone/Elec1601)** | C++ · Arduino AVR | **Autonomous maze-racing car** — state-machine architecture, DFS / wall-following path search, sensor filtering and debouncing. **Top 8 of 200+ teams**, 1st in class. |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Dragolone/robot-charging-station-miniprogram">🤖 robot-charging-station-miniprogram</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/stars/Dragolone/robot-charging-station-miniprogram?style=flat-square&logo=github&color=f5c518" />
+        <img src="https://img.shields.io/github/languages/top/Dragolone/robot-charging-station-miniprogram?style=flat-square" />
+        <img src="https://img.shields.io/badge/status-live%20%C2%B7%2080%2B%20beta%20users-10B981?style=flat-square" />
+      </p>
+      <p>WeChat Mini Program for <b>real-time robot fleet management &amp; teleoperation</b>. WebSocket with exponential-backoff reconnect, heartbeat and HTTP-polling fallback; 5 Hz velocity commands with a <b>1 s dead-man stop</b>; HMAC-SHA256 short-lived tokens for WS auth; passed two rounds of WeChat platform review.</p>
+      <p><code>uni-app</code> <code>Vue 3</code> <code>uniCloud</code> <code>MQTT</code> <code>WebSocket</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Dragolone/ECS">📡 ECS — IoT Gateway</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/Dragolone/ECS?style=flat-square" />
+        <img src="https://img.shields.io/github/last-commit/Dragolone/ECS?style=flat-square&color=8b5cf6" />
+        <img src="https://img.shields.io/badge/deploy-Render-46E3B7?style=flat-square&logo=render&logoColor=white" />
+      </p>
+      <p>The gateway behind the platform on the left. Merged two services into <b>one process</b> that handles MQTT → DB persistence, HTTP command dispatch and WS broadcast — halved the ops footprint, telemetry latency dropped from 10 s polling to <b>~1 s</b>.</p>
+      <p><code>Python</code> <code>Flask</code> <code>paho-mqtt</code> <code>flask-sock</code> <code>EMQX</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Dragolone/01web">🌐 01web — Company Website</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/Dragolone/01web?style=flat-square" />
+        <img src="https://img.shields.io/website?url=https%3A%2F%2Fwww.01weichuang.com&style=flat-square&label=01weichuang.com&up_color=10B981" />
+        <img src="https://img.shields.io/badge/i18n-%E7%AE%80%20%2F%20%E7%B9%81%20%2F%20EN-0A0A0A?style=flat-square" />
+      </p>
+      <p>Trilingual site for ZeroOne Innovation, live at <a href="https://www.01weichuang.com">01weichuang.com</a>. Contact-form API with validation, <b>IP rate limiting</b> and graceful SMTP fallback; security headers; 308 redirects for legacy routes; Nginx + SSL on Tencent Cloud, ICP-registered.</p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Nginx</code> <code>Tencent Cloud</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Dragolone/Background-Management">🖥️ Background-Management</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/Dragolone/Background-Management?style=flat-square" />
+        <img src="https://img.shields.io/github/last-commit/Dragolone/Background-Management?style=flat-square&color=8b5cf6" />
+      </p>
+      <p>Internal <b>admin dashboard</b> for ZeroOne Innovation's robot platform — the ops-side companion to the mini program, sharing the same uniCloud backend and auth model.</p>
+      <p><code>Vue 3</code> <code>uniCloud</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Dragolone/Elec1601">🏎️ Elec1601 — Autonomous Maze Car</a></h3>
+      <p>
+        <img src="https://img.shields.io/github/languages/top/Dragolone/Elec1601?style=flat-square" />
+        <img src="https://img.shields.io/badge/result-Top%208%20of%20200%2B%20teams-F59E0B?style=flat-square" />
+      </p>
+      <p>Team code lead. State-machine architecture, DFS / improved wall-following path search, sensor signal filtering and state debouncing on an Arduino AVR. <b>Top 8 of 200+ teams, 1st in class.</b></p>
+      <p><code>C++</code> <code>Arduino</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔒 AI Smart Helmet — Cloud Backend</h3>
+      <p>
+        <img src="https://img.shields.io/badge/source-private-6B7280?style=flat-square" />
+        <img src="https://img.shields.io/badge/e2e-24%20suites%20%C2%B7%20209%20tests-10B981?style=flat-square&logo=jest&logoColor=white" />
+        <img src="https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+      </p>
+      <p>Modular NestJS monolith with a unified ingest layer (MQTT / webhook / BLE relay), idempotent event dedup, a persisted <b>SOS state machine</b> that survives restarts, and a command-ack state machine (<code>pending → delivered → success / failed / offline</code>). Pre-launch hardening: 66 hardening + 8 stress cases surfaced 11 defects, all fixed same day.</p>
+      <p><code>NestJS</code> <code>Prisma</code> <code>PostgreSQL 16</code> <code>EMQX</code> <code>Docker Compose</code> <code>Caddy</code></p>
+    </td>
+  </tr>
+</table>
 
-> 🔒 **Closed-source, but happy to talk about it:** the AI smart-helmet backend — a modular NestJS monolith with a unified ingest layer (MQTT / webhook / BLE-relay), idempotent event dedup, a persisted **SOS state machine** that survives restarts, and a command-ack state machine (`pending → delivered → success / failed / offline`). Pre-launch hardening: 66 hardening + 8 stress cases surfaced 11 defects, all fixed same day; **24 e2e suites / 209 tests green** in CI, including an empty-DB migration check.
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 <table align="center">
   <tr>
     <td align="right"><b>Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=ts,js,python,java,cpp,r,bash" /></td>
+    <td>
+      <a href="https://www.typescriptlang.org/"><img src="https://skillicons.dev/icons?i=ts" width="44" alt="TypeScript" /></a>
+      <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" width="44" alt="JavaScript" /></a>
+      <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=python" width="44" alt="Python" /></a>
+      <a href="https://openjdk.org/"><img src="https://skillicons.dev/icons?i=java" width="44" alt="Java" /></a>
+      <a href="https://isocpp.org/"><img src="https://skillicons.dev/icons?i=cpp" width="44" alt="C++" /></a>
+      <a href="https://www.r-project.org/"><img src="https://skillicons.dev/icons?i=r" width="44" alt="R" /></a>
+      <a href="https://www.gnu.org/software/bash/"><img src="https://skillicons.dev/icons?i=bash" width="44" alt="Bash" /></a>
+    </td>
   </tr>
   <tr>
     <td align="right"><b>Backend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=nodejs,nestjs,express,fastapi,flask" /></td>
+    <td>
+      <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" width="44" alt="Node.js" /></a>
+      <a href="https://nestjs.com/"><img src="https://skillicons.dev/icons?i=nestjs" width="44" alt="NestJS" /></a>
+      <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" width="44" alt="Express" /></a>
+      <a href="https://fastapi.tiangolo.com/"><img src="https://skillicons.dev/icons?i=fastapi" width="44" alt="FastAPI" /></a>
+      <a href="https://flask.palletsprojects.com/"><img src="https://skillicons.dev/icons?i=flask" width="44" alt="Flask" /></a>
+      <a href="https://graphql.org/"><img src="https://skillicons.dev/icons?i=graphql" width="44" alt="GraphQL" /></a>
+      <a href="https://redis.io/"><img src="https://skillicons.dev/icons?i=redis" width="44" alt="Redis" /></a>
+    </td>
   </tr>
   <tr>
     <td align="right"><b>Frontend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=react,vue,nextjs,reactnative,tailwind" /></td>
+    <td>
+      <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" width="44" alt="React" /></a>
+      <a href="https://vuejs.org/"><img src="https://skillicons.dev/icons?i=vue" width="44" alt="Vue" /></a>
+      <a href="https://nextjs.org/"><img src="https://skillicons.dev/icons?i=nextjs" width="44" alt="Next.js" /></a>
+      <a href="https://tailwindcss.com/"><img src="https://skillicons.dev/icons?i=tailwind" width="44" alt="Tailwind CSS" /></a>
+      <a href="https://vitejs.dev/"><img src="https://skillicons.dev/icons?i=vite" width="44" alt="Vite" /></a>
+    </td>
   </tr>
   <tr>
-    <td align="right"><b>Data</b></td>
-    <td><img src="https://skillicons.dev/icons?i=postgres,prisma,mongodb,mysql,sqlite,pytorch,sklearn" /></td>
+    <td align="right"><b>Data & ML</b></td>
+    <td>
+      <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" width="44" alt="PostgreSQL" /></a>
+      <a href="https://www.prisma.io/"><img src="https://skillicons.dev/icons?i=prisma" width="44" alt="Prisma" /></a>
+      <a href="https://www.mongodb.com/"><img src="https://skillicons.dev/icons?i=mongodb" width="44" alt="MongoDB" /></a>
+      <a href="https://www.mysql.com/"><img src="https://skillicons.dev/icons?i=mysql" width="44" alt="MySQL" /></a>
+      <a href="https://www.sqlite.org/"><img src="https://skillicons.dev/icons?i=sqlite" width="44" alt="SQLite" /></a>
+      <a href="https://pytorch.org/"><img src="https://skillicons.dev/icons?i=pytorch" width="44" alt="PyTorch" /></a>
+      <a href="https://scikit-learn.org/"><img src="https://skillicons.dev/icons?i=sklearn" width="44" alt="scikit-learn" /></a>
+    </td>
   </tr>
   <tr>
     <td align="right"><b>DevOps & Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=docker,nginx,githubactions,jest,git,linux,arduino,latex" /></td>
+    <td>
+      <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker" width="44" alt="Docker" /></a>
+      <a href="https://nginx.org/"><img src="https://skillicons.dev/icons?i=nginx" width="44" alt="Nginx" /></a>
+      <a href="https://github.com/features/actions"><img src="https://skillicons.dev/icons?i=githubactions" width="44" alt="GitHub Actions" /></a>
+      <a href="https://jestjs.io/"><img src="https://skillicons.dev/icons?i=jest" width="44" alt="Jest" /></a>
+      <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="44" alt="Git" /></a>
+      <a href="https://www.kernel.org/"><img src="https://skillicons.dev/icons?i=linux" width="44" alt="Linux" /></a>
+      <a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" width="44" alt="Postman" /></a>
+      <a href="https://www.arduino.cc/"><img src="https://skillicons.dev/icons?i=arduino" width="44" alt="Arduino" /></a>
+      <a href="https://www.latex-project.org/"><img src="https://skillicons.dev/icons?i=latex" width="44" alt="LaTeX" /></a>
+    </td>
   </tr>
 </table>
 
 <p align="center">
-  <sub>Also: MQTT / EMQX · WebSocket · JWT + refresh auth · rate limiting & idempotency · Alembic / Prisma migrations · Docker Compose · Caddy · Tencent Cloud (CVM / COS / SMS / TRTC) · Render · Claude Code</sub>
+  <a href="https://mqtt.org/"><img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white" /></a>
+  <a href="https://www.emqx.io/"><img src="https://img.shields.io/badge/EMQX-00B173?style=flat-square" /></a>
+  <a href="https://developer.mozilla.org/docs/Web/API/WebSockets_API"><img src="https://img.shields.io/badge/WebSocket-1F2937?style=flat-square" /></a>
+  <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React%20Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" /></a>
+  <a href="https://uniapp.dcloud.net.cn/"><img src="https://img.shields.io/badge/uni--app-2B9939?style=flat-square" /></a>
+  <a href="https://developers.weixin.qq.com/miniprogram/dev/framework/"><img src="https://img.shields.io/badge/WeChat%20Mini%20Program-07C160?style=flat-square&logo=wechat&logoColor=white" /></a>
+  <a href="https://caddyserver.com/"><img src="https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white" /></a>
+  <a href="https://cloud.tencent.com/"><img src="https://img.shields.io/badge/Tencent%20Cloud-0052D9?style=flat-square" /></a>
+  <a href="https://render.com/"><img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" /></a>
+  <a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" /></a>
 </p>
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dragolone&theme=tokyonight" width="100%" alt="profile details" />
@@ -85,7 +208,7 @@
   </picture>
 </p>
 
-## 👀 Profile Views
+## Profile Views
 
 <p align="center">
   <img src="https://count.getloli.com/get/@Dragolone.github.readme" alt="profile views" />
