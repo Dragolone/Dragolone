@@ -91,7 +91,7 @@
 </table>
 
 ## Tech Stack
-
+ 
 <table align="center">
   <tr>
     <td align="right"><b>Languages</b></td>
