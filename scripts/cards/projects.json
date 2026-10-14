@@ -1,0 +1,68 @@
+[
+  {
+    "id": "robot-charging-station-miniprogram",
+    "monogram": "RC",
+    "accent": "#d29922",
+    "title": "robot-charging-station-miniprogram",
+    "url": "https://github.com/Dragolone/robot-charging-station-miniprogram",
+    "status": {"label": "LIVE", "tone": "green"},
+    "tagline": "WeChat Mini Program for real-time robot fleet management and teleoperation. Passed two rounds of WeChat platform review.",
+    "metrics": [["165", "GitHub stars"], ["80+", "beta users"], ["1 s", "dead-man stop"]],
+    "tags": ["uni-app", "Vue 3", "uniCloud", "MQTT", "WebSocket", "HMAC auth"]
+  },
+  {
+    "id": "ecs",
+    "monogram": "EC",
+    "accent": "#3572a5",
+    "title": "ECS — IoT Gateway",
+    "url": "https://github.com/Dragolone/ECS",
+    "status": {"label": "PRODUCTION", "tone": "green"},
+    "tagline": "The gateway behind the mini program. MQTT → DB persistence, HTTP command dispatch and WebSocket broadcast, merged into one process.",
+    "metrics": [["~1 s", "telemetry latency, was 10 s"], ["2 → 1", "services, half the ops"], ["EMQX", "broker"]],
+    "tags": ["Python", "Flask", "paho-mqtt", "flask-sock", "Render"]
+  },
+  {
+    "id": "01web",
+    "monogram": "01",
+    "accent": "#6e40c9",
+    "title": "01web — Company Website",
+    "url": "https://github.com/Dragolone/01web",
+    "status": {"label": "LIVE", "tone": "green"},
+    "tagline": "Trilingual site for ZeroOne Innovation at 01weichuang.com. Contact API with validation, IP rate limiting and graceful SMTP fallback.",
+    "metrics": [["3", "languages"], ["308", "redirects for legacy routes"], ["ICP", "registered, Nginx + SSL"]],
+    "tags": ["Next.js", "TypeScript", "Nginx", "Tencent Cloud"]
+  },
+  {
+    "id": "background-management",
+    "monogram": "BM",
+    "accent": "#41b883",
+    "title": "Background-Management",
+    "url": "https://github.com/Dragolone/Background-Management",
+    "status": {"label": "INTERNAL", "tone": "grey"},
+    "tagline": "Admin dashboard for the robot platform: the ops-side companion to the mini program, on the same uniCloud backend and auth model.",
+    "metrics": [["1", "shared backend"], ["Ops", "side of the platform"], ["Vue 3", "frontend"]],
+    "tags": ["Vue 3", "uniCloud", "Admin UI"]
+  },
+  {
+    "id": "elec1601",
+    "monogram": "MC",
+    "accent": "#f34b7d",
+    "title": "Elec1601 — Autonomous Maze Car",
+    "url": "https://github.com/Dragolone/Elec1601",
+    "status": {"label": "AWARD", "tone": "amber"},
+    "tagline": "Maze-solving car on an Arduino AVR. State-machine architecture, DFS + improved wall-following, sensor filtering and debouncing.",
+    "metrics": [["Top 8", "of 200+ teams"], ["1st", "in class"], ["Lead", "team code"]],
+    "tags": ["C++", "Arduino", "State machine", "DFS"]
+  },
+  {
+    "id": "ai-smart-helmet",
+    "monogram": "AH",
+    "accent": "#e0234e",
+    "title": "AI Smart Helmet — Cloud Backend",
+    "url": null,
+    "status": {"label": "PRIVATE", "tone": "grey"},
+    "tagline": "Modular NestJS monolith: unified ingest (MQTT / webhook / BLE), idempotent event dedup, persisted SOS and command-ack state machines.",
+    "metrics": [["209", "e2e tests, 24 suites"], ["11", "defects caught pre-launch"], ["0 → 1", "shipped as sole owner"]],
+    "tags": ["NestJS", "Prisma", "PostgreSQL 16", "EMQX", "Docker", "Caddy"]
+  }
+]

@@ -23,72 +23,48 @@
 
 ## Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Dragolone/robot-charging-station-miniprogram">🤖 robot-charging-station-miniprogram</a></h3>
-      <p>
-        <img src="https://img.shields.io/github/stars/Dragolone/robot-charging-station-miniprogram?style=flat-square&logo=github&color=f5c518" alt="GitHub stars" />
-        <img src="https://img.shields.io/github/languages/top/Dragolone/robot-charging-station-miniprogram?style=flat-square" alt="top language" />
-        <img src="https://img.shields.io/badge/status-live%20%C2%B7%2080%2B%20beta%20users-10B981?style=flat-square" alt="status live · 80+ beta users" />
-      </p>
-      <p>WeChat Mini Program for <b>real-time robot fleet management &amp; teleoperation</b>. WebSocket with exponential-backoff reconnect, heartbeat and HTTP-polling fallback; 5 Hz velocity commands with a <b>1 s dead-man stop</b>; HMAC-SHA256 short-lived tokens for WS auth; passed two rounds of WeChat platform review.</p>
-      <p><code>uni-app</code> <code>Vue 3</code> <code>uniCloud</code> <code>MQTT</code> <code>WebSocket</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Dragolone/ECS">📡 ECS — IoT Gateway</a></h3>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/Dragolone/ECS?style=flat-square" alt="top language" />
-        <img src="https://img.shields.io/github/last-commit/Dragolone/ECS?style=flat-square&color=8b5cf6" alt="last commit" />
-        <img src="https://img.shields.io/badge/deploy-Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="deploy Render" />
-      </p>
-      <p>The gateway behind the platform on the left. Merged two services into <b>one process</b> that handles MQTT → DB persistence, HTTP command dispatch and WS broadcast — halved the ops footprint, telemetry latency dropped from 10 s polling to <b>~1 s</b>.</p>
-      <p><code>Python</code> <code>Flask</code> <code>paho-mqtt</code> <code>flask-sock</code> <code>EMQX</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Dragolone/01web">🌐 01web — Company Website</a></h3>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/Dragolone/01web?style=flat-square" alt="top language" />
-        <img src="https://img.shields.io/website?url=https%3A%2F%2Fwww.01weichuang.com&style=flat-square&label=01weichuang.com&up_color=10B981" alt="website status" />
-        <img src="https://img.shields.io/badge/i18n-%E7%AE%80%20%2F%20%E7%B9%81%20%2F%20EN-0A0A0A?style=flat-square" alt="i18n 简 / 繁 / EN" />
-      </p>
-      <p>Trilingual site for ZeroOne Innovation, live at <a href="https://www.01weichuang.com">01weichuang.com</a>. Contact-form API with validation, <b>IP rate limiting</b> and graceful SMTP fallback; security headers; 308 redirects for legacy routes; Nginx + SSL on Tencent Cloud, ICP-registered.</p>
-      <p><code>Next.js</code> <code>TypeScript</code> <code>Nginx</code> <code>Tencent Cloud</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Dragolone/Background-Management">🖥️ Background-Management</a></h3>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/Dragolone/Background-Management?style=flat-square" alt="top language" />
-        <img src="https://img.shields.io/github/last-commit/Dragolone/Background-Management?style=flat-square&color=8b5cf6" alt="last commit" />
-      </p>
-      <p>Internal <b>admin dashboard</b> for ZeroOne Innovation's robot platform — the ops-side companion to the mini program, sharing the same uniCloud backend and auth model.</p>
-      <p><code>Vue 3</code> <code>uniCloud</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Dragolone/Elec1601">🏎️ Elec1601 — Autonomous Maze Car</a></h3>
-      <p>
-        <img src="https://img.shields.io/github/languages/top/Dragolone/Elec1601?style=flat-square" alt="top language" />
-        <img src="https://img.shields.io/badge/result-Top%208%20of%20200%2B%20teams-F59E0B?style=flat-square" alt="result Top 8 of 200+ teams" />
-      </p>
-      <p>Team code lead. State-machine architecture, DFS / improved wall-following path search, sensor signal filtering and state debouncing on an Arduino AVR. <b>Top 8 of 200+ teams, 1st in class.</b></p>
-      <p><code>C++</code> <code>Arduino</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔒 AI Smart Helmet — Cloud Backend</h3>
-      <p>
-        <img src="https://img.shields.io/badge/source-private-6B7280?style=flat-square" alt="source private" />
-        <img src="https://img.shields.io/badge/e2e-24%20suites%20%C2%B7%20209%20tests-10B981?style=flat-square&logo=jest&logoColor=white" alt="e2e 24 suites · 209 tests" />
-        <img src="https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI GitHub Actions" />
-      </p>
-      <p>Modular NestJS monolith with a unified ingest layer (MQTT / webhook / BLE relay), idempotent event dedup, a persisted <b>SOS state machine</b> that survives restarts, and a command-ack state machine (<code>pending → delivered → success / failed / offline</code>). Pre-launch hardening: 66 hardening + 8 stress cases surfaced 11 defects, all fixed same day.</p>
-      <p><code>NestJS</code> <code>Prisma</code> <code>PostgreSQL 16</code> <code>EMQX</code> <code>Docker Compose</code> <code>Caddy</code></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/Dragolone/robot-charging-station-miniprogram">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-robot-charging-station-miniprogram-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-robot-charging-station-miniprogram.svg" width="49%" alt="robot-charging-station-miniprogram" />
+  </picture>
+  </a>
+  <a href="https://github.com/Dragolone/ECS">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-ecs-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-ecs.svg" width="49%" alt="ECS — IoT Gateway" />
+  </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Dragolone/01web">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-01web-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-01web.svg" width="49%" alt="01web — Company Website" />
+  </picture>
+  </a>
+  <a href="https://github.com/Dragolone/Background-Management">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-background-management-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-background-management.svg" width="49%" alt="Background-Management" />
+  </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Dragolone/Elec1601">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-elec1601-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-elec1601.svg" width="49%" alt="Elec1601 — Autonomous Maze Car" />
+  </picture>
+  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-ai-smart-helmet-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-ai-smart-helmet.svg" width="49%" alt="AI Smart Helmet — Cloud Backend" />
+  </picture>
+</p>
 
 ## Tech Stack
  
