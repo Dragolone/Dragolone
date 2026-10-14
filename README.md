@@ -168,25 +168,6 @@
   <a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" /></a>
 </p>
 
-## GitHub Stats
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dragolone&theme=tokyonight" width="100%" alt="profile details" />
-</p>
-
-<p align="center">
-  <img src="https://denvercoder1-github-readme-stats.vercel.app/api?username=Dragolone&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="180" alt="github stats" />
-  <img src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Dragolone&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,tex" height="180" alt="top languages" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Dragolone/Dragolone/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
-
 ## GitHub, Hand-Drawn
 
 <p align="center">
@@ -224,6 +205,34 @@
 
 <p align="center">
   <sub>Redrawn daily by <a href=".github/workflows/xkcd-charts.yml">a GitHub Action</a> in the style of <a href="https://github.com/timqian/chart.xkcd">chart.xkcd</a> · font: <a href="https://github.com/ipython/xkcd-font">xkcd-script</a> (CC BY-NC 3.0)</sub>
+</p>
+
+## GitHub Stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dragolone&theme=github_dark">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dragolone&theme=github" width="100%" alt="profile details" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api?username=Dragolone&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=dd4528&ring_color=dd4528">
+    <img src="https://denvercoder1-github-readme-stats.vercel.app/api?username=Dragolone&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=ffffff&title_color=24292f&text_color=57606a&icon_color=dd4528&ring_color=dd4528" height="180" alt="github stats" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Dragolone&layout=compact&hide_border=true&langs_count=8&hide=html,tex&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=dd4528&ring_color=dd4528">
+    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Dragolone&layout=compact&hide_border=true&langs_count=8&hide=html,tex&bg_color=ffffff&title_color=24292f&text_color=57606a&icon_color=dd4528&ring_color=dd4528" height="180" alt="top languages" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/Dragolone/Dragolone/output/github-contribution-grid-snake.svg">
+  </picture>
 </p>
 
 ## Profile Views
