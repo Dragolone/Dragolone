@@ -130,8 +130,13 @@ def collect(token, login):
         for c in gh.paginate(f"/repos/{full}/commits", author=login):
             commits.append({"repo": name, "date": c["commit"]["author"]["date"]})
         if r["stargazers_count"]:
-            for s in gh.paginate(f"/repos/{full}/stargazers", accept="application/vnd.github.star+json"):
-                stars.append({"repo": name, "starred_at": s["starred_at"]})
+            # The stargazer list is admin-only since mid-2026; /stargazers/history gives
+            # per-day counts instead: weeks starting Sunday, days[0] = Sunday.
+            for week in gh.paginate(f"/repos/{full}/stargazers/history"):
+                sunday = datetime.fromtimestamp(week["week"], timezone.utc)
+                for i, n in enumerate(week["days"]):
+                    day = (sunday + timedelta(days=i)).isoformat()
+                    stars.extend({"repo": name, "starred_at": day} for _ in range(n))
         languages[name] = gh.get(f"/repos/{full}/languages")
         log(f"  {name}: done")
 
