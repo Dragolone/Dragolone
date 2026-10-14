@@ -187,6 +187,45 @@
   </picture>
 </p>
 
+## GitHub, Hand-Drawn
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/contributions-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/contributions.svg" width="49%" alt="Contribution history" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/stars-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/stars.svg" width="49%" alt="Star history" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/actions-runs-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/actions-runs.svg" width="49%" alt="GitHub Actions runs per week" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/actions-minutes-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/actions-minutes.svg" width="49%" alt="CI minutes burned" />
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/commit-clock-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/commit-clock.svg" width="49%" alt="Commits by hour of day" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/languages-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/languages.svg" width="49%" alt="Code by language" />
+  </picture>
+</p>
+
+<p align="center">
+  <sub>Redrawn daily by <a href=".github/workflows/xkcd-charts.yml">a GitHub Action</a> in the style of <a href="https://github.com/timqian/chart.xkcd">chart.xkcd</a> · font: <a href="https://github.com/ipython/xkcd-font">xkcd-script</a> (CC BY-NC 3.0)</sub>
+</p>
+
 ## Profile Views
 
 <p align="center">

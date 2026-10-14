@@ -1,0 +1,49 @@
+name: Generate xkcd Charts
+
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/xkcd/**"
+      - ".github/workflows/xkcd-charts.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: xkcd-charts
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install fontTools (subsets the embedded font to ~15 KB)
+        run: pip install fonttools==4.61.1
+
+      - name: Draw charts
+        run: python scripts/xkcd/make_charts.py --out dist
+        env:
+          # CHARTS_TOKEN is a read-only PAT; without it only public data is charted.
+          GH_TOKEN: ${{ secrets.CHARTS_TOKEN || secrets.GITHUB_TOKEN }}
+          CHART_USER: ${{ github.repository_owner }}
+          CHART_TZ: Asia/Hong_Kong
+          REPO_ALIASES: "AI-Smart-Helmet-01WeiChuang=AI Smart Helmet (private)"
+
+      - name: Push charts to charts branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: charts
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
