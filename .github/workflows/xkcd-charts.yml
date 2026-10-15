@@ -8,7 +8,6 @@ on:
     branches: [main]
     paths:
       - "scripts/xkcd/**"
-      - "scripts/cards/**"
       - ".github/workflows/xkcd-charts.yml"
 
 permissions:
@@ -40,9 +39,6 @@ jobs:
           CHART_USER: ${{ github.repository_owner }}
           CHART_TZ: Asia/Hong_Kong
           REPO_ALIASES: "AI-Smart-Helmet-01WeiChuang=AI Smart Helmet (private)"
-
-      - name: Draw project cards
-        run: python scripts/cards/make_cards.py --out dist
 
       - name: Push charts to charts branch
         uses: crazy-max/ghaction-github-pages@v4

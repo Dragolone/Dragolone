@@ -24,46 +24,14 @@
 ## Featured Projects
 
 <p align="center">
-  <a href="https://github.com/Dragolone/robot-charging-station-miniprogram">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-robot-charging-station-miniprogram-dark.svg">
-    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-robot-charging-station-miniprogram.svg" width="49%" alt="robot-charging-station-miniprogram" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/projects-map-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/projects-map.svg" width="100%" alt="How my projects fit together: robots talk MQTT to the ECS gateway, which feeds the mini program over WebSocket and the admin panel over HTTP; helmets talk MQTT / BLE to the helmet backend" />
   </picture>
-  </a>
-  <a href="https://github.com/Dragolone/ECS">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-ecs-dark.svg">
-    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-ecs.svg" width="49%" alt="ECS — IoT Gateway" />
-  </picture>
-  </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Dragolone/01web">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-01web-dark.svg">
-    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-01web.svg" width="49%" alt="01web — Company Website" />
-  </picture>
-  </a>
-  <a href="https://github.com/Dragolone/Background-Management">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-background-management-dark.svg">
-    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-background-management.svg" width="49%" alt="Background-Management" />
-  </picture>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/Dragolone/Elec1601">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-elec1601-dark.svg">
-    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-elec1601.svg" width="49%" alt="Elec1601 — Autonomous Maze Car" />
-  </picture>
-  </a>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-ai-smart-helmet-dark.svg">
-    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-ai-smart-helmet.svg" width="49%" alt="AI Smart Helmet — Cloud Backend" />
-  </picture>
+  → <a href="https://github.com/Dragolone/robot-charging-station-miniprogram">robot-charging-station</a> · <a href="https://github.com/Dragolone/ECS">ECS</a> · <a href="https://github.com/Dragolone/01web">01web</a> · <a href="https://github.com/Dragolone/Background-Management">Background-Management</a> · <a href="https://github.com/Dragolone/Elec1601">Elec1601</a>
 </p>
 
 ## Tech Stack
