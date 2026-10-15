@@ -24,14 +24,35 @@
 ## Featured Projects
 
 <p align="center">
+  <a href="https://github.com/Dragolone/robot-charging-station-miniprogram">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/projects-map-dark.svg">
-    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/projects-map.svg" width="100%" alt="How my projects fit together: robots talk MQTT to the ECS gateway, which feeds the mini program over WebSocket and the admin panel over HTTP; helmets talk MQTT / BLE to the helmet backend" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-robot-station-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-robot-station.svg" width="49%" alt="Robot Charging Station: WeChat mini program for robot fleet teleoperation" />
   </picture>
+  </a>
+  <a href="https://github.com/Dragolone/ECS">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-ecs-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-ecs.svg" width="49%" alt="ECS Gateway: the IoT gateway behind the fleet" />
+  </picture>
+  </a>
 </p>
 
 <p align="center">
-  → <a href="https://github.com/Dragolone/robot-charging-station-miniprogram">robot-charging-station</a> · <a href="https://github.com/Dragolone/ECS">ECS</a> · <a href="https://github.com/Dragolone/01web">01web</a> · <a href="https://github.com/Dragolone/Background-Management">Background-Management</a> · <a href="https://github.com/Dragolone/Elec1601">Elec1601</a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-helmet-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-helmet.svg" width="49%" alt="AI Smart Helmet: NestJS cloud backend (private)" />
+  </picture>
+  <a href="https://github.com/Dragolone/01web">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-01web-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/project-01web.svg" width="49%" alt="ZeroOne Website: trilingual company site" />
+  </picture>
+  </a>
+</p>
+
+<p align="center">
+  Also: <a href="https://github.com/Dragolone/Background-Management">Background-Management</a> (ops dashboard) · <a href="https://github.com/Dragolone/Elec1601">Elec1601</a> (maze car, top 8 of 200+)
 </p>
 
 ## Tech Stack

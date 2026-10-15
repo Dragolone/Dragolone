@@ -20,7 +20,7 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-import project_map  # noqa: E402
+import project_panels  # noqa: E402
 import xkcd  # noqa: E402
 from github_data import collect  # noqa: E402
 
@@ -203,11 +203,12 @@ def main():
             print(f"wrote {path} ({os.path.getsize(path) // 1024} KB)")
 
     stars = next((r["stars"] for r in data["repos"] if r["name"] == "robot-charging-station-miniprogram"), 0)
-    for theme, suffix in (("light", ""), ("dark", "-dark")):
-        path = os.path.join(args.out, f"projects-map{suffix}.svg")
-        with open(path, "w") as f:
-            f.write(project_map.render(theme, stars))
-        print(f"wrote {path} ({os.path.getsize(path) // 1024} KB)")
+    for name, draw in project_panels.PANELS.items():
+        for theme, suffix in (("light", ""), ("dark", "-dark")):
+            path = os.path.join(args.out, f"{name}{suffix}.svg")
+            with open(path, "w") as f:
+                f.write(draw(theme, stars))
+            print(f"wrote {path} ({os.path.getsize(path) // 1024} KB)")
 
 
 if __name__ == "__main__":
