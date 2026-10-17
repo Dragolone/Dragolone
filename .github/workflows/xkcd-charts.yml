@@ -22,9 +22,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -41,7 +41,7 @@ jobs:
           REPO_ALIASES: "AI-Smart-Helmet-01WeiChuang=AI Smart Helmet (private)"
 
       - name: Push charts to charts branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: charts
           build_dir: dist
