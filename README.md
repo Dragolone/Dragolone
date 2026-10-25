@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Location-Sydney%20%2F%20Shenzhen-2ea44f?style=flat-square" alt="Location Sydney / Shenzhen" />
   <img src="https://img.shields.io/badge/Open%20to-Backend%20%2F%20Full--stack%20Internships-8B5CF6?style=flat-square" alt="Open to Backend / Full-stack Internships" />
 </p>
- 
+
 ## About Me
 
 - <img src="https://img.shields.io/badge/-EDUCATION-5E5CE6?style=flat-square" alt="EDUCATION" align="top" /> &nbsp; **Bachelor of Advanced Computing** at The University of Sydney (2024 – 2028) · exchange semester at **HKU**, 2026, on the Vice Chancellor's Global Mobility Scholarship
