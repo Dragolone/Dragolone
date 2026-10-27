@@ -14,7 +14,7 @@
 </p>
 
 ## About Me
-
+ 
 - <img src="https://img.shields.io/badge/-EDUCATION-5E5CE6?style=flat-square" alt="EDUCATION" align="top" /> &nbsp; **Bachelor of Advanced Computing** at The University of Sydney (2024 – 2028) · exchange semester at **HKU**, 2026, on the Vice Chancellor's Global Mobility Scholarship
 - <img src="https://img.shields.io/badge/-%E3%85%A4%E2%A0%80ROLE%E2%A0%80%E3%85%A4-0EA5E9?style=flat-square" alt="ROLE" align="top" /> &nbsp; **Backend lead at an early-stage IoT startup** in Shenzhen · sole software owner · **three production systems shipped from 0 → 1**
 - <img src="https://img.shields.io/badge/-%E3%85%A4%E2%A0%80NOW%E2%A0%80%E3%85%A4-10B981?style=flat-square" alt="NOW" align="top" /> &nbsp; Building the cloud backend for an **AI smart helmet** · NestJS · Prisma · PostgreSQL 16 · EMQX
