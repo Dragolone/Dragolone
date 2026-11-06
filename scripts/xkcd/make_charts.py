@@ -20,9 +20,10 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import badge  # noqa: E402
 import project_panels  # noqa: E402
 import xkcd  # noqa: E402
-from github_data import collect  # noqa: E402
+from github_data import GitHub, collect  # noqa: E402
 
 GREEN, RED, GREY, BLUE = "#4ab74e", "#dd4528", "#949494", "#28a3dd"
 
@@ -174,14 +175,16 @@ def main():
     ap.add_argument("--tz", default=os.environ.get("CHART_TZ") or "UTC")
     ap.add_argument("--alias", default=os.environ.get("REPO_ALIASES", ""))
     ap.add_argument("--hide-langs", default=os.environ.get("HIDE_LANGS", "HTML,TeX,Jupyter Notebook,BibTeX Style"))
+    ap.add_argument("--oss", default=os.environ.get("OSS_REPOS", ""),
+                    help="comma-separated upstream repos to badge the user's merged PR count for")
     ap.add_argument("--cache")
     args = ap.parse_args()
+    token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
     if args.cache and os.path.exists(args.cache):
         with open(args.cache) as f:
             data = json.load(f)
     else:
-        token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
         if not token or not args.user:
             sys.exit("need GH_TOKEN and --user")
         data = collect(token, args.user)
@@ -209,6 +212,18 @@ def main():
             with open(path, "w") as f:
                 f.write(draw(theme, stars))
             print(f"wrote {path} ({os.path.getsize(path) // 1024} KB)")
+
+    # Live "merged PRs" badges for upstream projects the user contributes to.
+    for repo in filter(None, (r.strip() for r in args.oss.split(","))):
+        if not token:
+            print(f"skipping {repo} badge: no token")
+            continue
+        q = f"repo:{repo} author:{data['login']} type:pr is:merged"
+        count = GitHub(token).get("/search/issues", q=q, per_page=1)["total_count"]
+        path = os.path.join(args.out, f"oss-{repo.split('/')[1]}-merged-prs.svg")
+        with open(path, "w") as f:
+            f.write(badge.badge("merged PRs", str(count)))
+        print(f"wrote {path} ({count} merged PRs in {repo})")
 
 
 if __name__ == "__main__":
