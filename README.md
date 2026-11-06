@@ -20,6 +20,7 @@
 - <img src="https://img.shields.io/badge/-%E3%85%A4%E2%A0%80NOW%E2%A0%80%E3%85%A4-10B981?style=flat-square" alt="NOW" align="top" /> &nbsp; Building the cloud backend for an **AI smart helmet** · NestJS · Prisma · PostgreSQL 16 · EMQX
 - <img src="https://img.shields.io/badge/-%E2%A0%80METHOD%E2%A0%80-F59E0B?style=flat-square" alt="METHOD" align="top" /> &nbsp; **Contracts and decision records first** · state stays **server-authoritative** · every merge gated by **e2e tests + CI**
 - <img src="https://img.shields.io/badge/-EXPLORING-EC4899?style=flat-square" alt="EXPLORING" align="top" /> &nbsp; **LLM applications** · RAG · function calling · agentic workflows
+- <img src="https://img.shields.io/badge/-OPEN%20SOURCE-F97316?style=flat-square" alt="OPEN SOURCE" align="top" /> &nbsp; Contributor to **[morluto/rea](https://github.com/morluto/rea)** <a href="https://github.com/morluto/rea/pulls?q=is%3Apr+author%3ADragolone+is%3Amerged"><img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/oss-rea-merged-prs.svg" alt="merged PRs" align="top" /></a> <img src="https://img.shields.io/github/stars/morluto/rea?style=flat-square&color=f5c518" alt="stars" align="top" /> · parsers for ELF, U-Boot, Apktool, Flutter and SQLite artifacts, plus linear-time regex and CSP hardening
 
 ## Featured Projects
 
