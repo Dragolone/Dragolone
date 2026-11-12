@@ -41,6 +41,56 @@ jobs:
           REPO_ALIASES: "AI-Smart-Helmet-01WeiChuang=AI Smart Helmet (private)"
           OSS_REPOS: "morluto/rea"
 
+      # The public github-readme-stats instances are paused or gone, so the cards
+      # are rendered here and served from the charts branch with the xkcd charts.
+      # A failed card never blocks the xkcd charts: yesterday's copy is reused below.
+      - name: Stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=ffffff&title_color=24292f&text_color=57606a&icon_color=dd4528&ring_color=dd4528
+          path: dist/stats.svg
+          token: ${{ secrets.CHARTS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+        continue-on-error: true
+
+      - name: Stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=dd4528&ring_color=dd4528
+          path: dist/stats-dark.svg
+          token: ${{ secrets.CHARTS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+        continue-on-error: true
+
+      - name: Top languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&langs_count=8&hide=html,tex&bg_color=ffffff&title_color=24292f&text_color=57606a
+          path: dist/top-langs.svg
+          token: ${{ secrets.CHARTS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+        continue-on-error: true
+
+      - name: Top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&hide_border=true&langs_count=8&hide=html,tex&bg_color=0d1117&title_color=e6edf3&text_color=8b949e
+          path: dist/top-langs-dark.svg
+          token: ${{ secrets.CHARTS_TOKEN || secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+        continue-on-error: true
+
+      - name: Reuse yesterday's card for any that failed
+        run: |
+          for f in stats stats-dark top-langs top-langs-dark; do
+            [ -f "dist/$f.svg" ] || curl -fsSL -o "dist/$f.svg" \
+              "https://raw.githubusercontent.com/${{ github.repository }}/charts/$f.svg" || true
+          done
+
       - name: Push charts to charts branch
         uses: crazy-max/ghaction-github-pages@v5
         with:

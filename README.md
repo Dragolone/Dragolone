@@ -184,12 +184,12 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api?username=Dragolone&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=dd4528&ring_color=dd4528">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api?username=Dragolone&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=ffffff&title_color=24292f&text_color=57606a&icon_color=dd4528&ring_color=dd4528" height="180" alt="github stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/stats-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/stats.svg" height="180" alt="github stats" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Dragolone&layout=compact&hide_border=true&langs_count=8&hide=html,tex&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=dd4528&ring_color=dd4528">
-    <img src="https://denvercoder1-github-readme-stats.vercel.app/api/top-langs/?username=Dragolone&layout=compact&hide_border=true&langs_count=8&hide=html,tex&bg_color=ffffff&title_color=24292f&text_color=57606a&icon_color=dd4528&ring_color=dd4528" height="180" alt="top languages" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/top-langs-dark.svg">
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/top-langs.svg" height="180" alt="top languages" />
   </picture>
 </p>
 
