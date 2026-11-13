@@ -48,7 +48,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=ffffff&title_color=24292f&text_color=57606a&icon_color=dd4528&ring_color=dd4528
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&hide=issues,contribs&bg_color=ffffff&title_color=24292f&text_color=57606a&icon_color=dd4528&ring_color=dd4528
           path: dist/stats.svg
           token: ${{ secrets.CHARTS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: "true"
@@ -58,7 +58,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=dd4528&ring_color=dd4528
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&hide=issues,contribs&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=dd4528&ring_color=dd4528
           path: dist/stats-dark.svg
           token: ${{ secrets.CHARTS_TOKEN || secrets.GITHUB_TOKEN }}
           fail_on_error: "true"

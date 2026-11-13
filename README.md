@@ -185,11 +185,11 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/stats-dark.svg">
-    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/stats.svg" height="180" alt="github stats" />
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/stats.svg" height="140" align="middle" alt="github stats" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/top-langs-dark.svg">
-    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/top-langs.svg" height="180" alt="top languages" />
+    <img src="https://raw.githubusercontent.com/Dragolone/Dragolone/charts/top-langs.svg" height="180" align="middle" alt="top languages" />
   </picture>
 </p>
 
